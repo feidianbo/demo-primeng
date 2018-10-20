@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo-primeng';
+
+  // 演示Dialog
+  display: boolean = false;
+  showDialog() {
+    console.log("测试对话框是否能够正常显示")
+    this.display = true;
+  }
 }
